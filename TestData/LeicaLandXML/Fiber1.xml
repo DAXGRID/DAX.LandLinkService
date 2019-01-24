@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" version="1.2" date="2013-08-26" time="12:55:34" readOnly="false" language="English">
+<Units>
+<Metric linearUnit="meter" areaUnit="squareMeter" volumeUnit="cubicMeter" angularUnit="radians" latLongAngularUnit="decimal degrees" temperatureUnit="celsius" pressureUnit="HPA"/>
+</Units>
+<CoordinateSystem name="UTM32JY" horizontalDatum="Local" verticalDatum="Local" ellipsoidName="WGS 1984" projectedCoordinateSystemName="UTM32" fileLocation="">
+</CoordinateSystem>
+<Application name="Smartworx Viva LandXML Export" manufacturer="Leica Geosystems AG" version="5.0" manufacturerURL="www.leica-geosystems.com">
+<Author company="Leica Geosystems AG" companyURL="www.leica-geosystems.com" timeStamp="2013-08-26T12:55:34"/>
+</Application>
+<CgPoints>
+<CgPoint name="GPS0012" oID="GPS0012" role="measured" latitude="55.751485450454" longitude="8.932501361245" ellipsoidHeight="81.726016" timeStamp="2013-08-26T11:53:29">6178423.215486 495763.284299 41.260100</CgPoint>
+<CgPoint name="GPS0011" oID="GPS0011" role="measured" latitude="55.751491541801" longitude="8.932416712711" ellipsoidHeight="81.686951" timeStamp="2013-08-26T11:53:08">6178423.898586 495757.971791 41.220970</CgPoint>
+<CgPoint name="GPS0010" oID="GPS0010" role="measured" latitude="55.751482583811" longitude="8.932542000680" ellipsoidHeight="81.696192" timeStamp="2013-08-26T11:52:39">6178422.893966 495765.834821 41.230307</CgPoint>
+<CgPoint name="GPS0009" oID="GPS0009" code="Fiber brønd" desc="" role="measured" timeStamp="2013-08-26T11:49:42">6178422.920218 495765.809458 41.226941</CgPoint>
+<CgPoint name="GPS0008" oID="GPS0008" role="measured" latitude="55.751482819471" longitude="8.932541596195" ellipsoidHeight="81.692826" timeStamp="2013-08-26T11:48:32">6178422.920218 495765.809458 41.226941</CgPoint>
+<CgPoint name="GPS0007" oID="GPS0007" role="measured" latitude="55.751479441892" longitude="8.932596317890" ellipsoidHeight="81.734338" timeStamp="2013-08-26T11:48:07">6178422.540977 495769.243832 41.268495</CgPoint>
+<CgPoint name="GPS0006" oID="GPS0006" code="Fiber brønd" desc="" role="measured" latitude="55.751479321902" longitude="8.932597080757" ellipsoidHeight="81.733109" timeStamp="2013-08-26T11:47:28">6178422.527576 495769.291702 41.267266</CgPoint>
+<CgPoint name="GPS0005" oID="GPS0005" role="measured" latitude="55.751478429927" longitude="8.932604684715" ellipsoidHeight="81.729582" timeStamp="2013-08-26T11:46:54">6178422.427842 495769.768887 41.263746</CgPoint>
+<CgPoint name="GPS0004" oID="GPS0004" role="measured" latitude="55.751465029552" longitude="8.932796535507" ellipsoidHeight="81.779360" timeStamp="2013-08-26T11:46:29">6178420.924785 495781.809421 41.313670</CgPoint>
+<CgPoint name="GPS0003" oID="GPS0003" role="measured" latitude="55.751452810760" longitude="8.932957771673" ellipsoidHeight="81.844207" timeStamp="2013-08-26T11:45:58">6178419.555122 495791.928488 41.378643</CgPoint>
+<CgPoint name="GPS0002" oID="GPS0002" role="measured" latitude="55.751452874197" longitude="8.932957707467" ellipsoidHeight="81.837505" timeStamp="2013-08-26T11:45:39">6178419.562186 495791.924465 41.371940</CgPoint>
+<CgPoint name="GPS0001" oID="GPS0001" code="Fiber kvejl" desc="" role="measured" latitude="55.751486628518" longitude="8.934136735261" ellipsoidHeight="82.076890" timeStamp="2013-08-26T11:20:19">6178423.247848 495865.932622 41.612325</CgPoint>
+<CgPoint name="RTCM-Ref 0002" oID="RTCM-Ref 0002" latitude="55.753765294572" longitude="8.962217387183" ellipsoidHeight="91.684739" timeStamp="2013-08-26T11:19:57">6178675.529162 497628.620878 51.245305</CgPoint>
+</CgPoints>
+<PlanFeatures>
+<PlanFeature name="Line0001">
+<CoordGeom>
+<Line>
+<Start pntRef="GPS0003">6178419.555122 495791.928488 41.378643</Start>
+<End pntRef="GPS0004">6178420.924785 495781.809421 41.313670</End>
+</Line>
+<Line>
+<Start pntRef="GPS0004">6178420.924785 495781.809421 41.313670</Start>
+<End pntRef="GPS0005">6178422.427842 495769.768887 41.263746</End>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="Line0002">
+<CoordGeom>
+<Line>
+<Start pntRef="GPS0007">6178422.540977 495769.243832 41.268495</Start>
+<End pntRef="GPS0008">6178422.920218 495765.809458 41.226941</End>
+</Line>
+<Line>
+<Start pntRef="GPS0008">6178422.920218 495765.809458 41.226941</Start>
+<End pntRef="GPS0009">6178422.920218 495765.809458 41.226941</End>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="Line0003">
+<CoordGeom>
+<Line>
+<Start pntRef="GPS0010">6178422.893966 495765.834821 41.230307</Start>
+<End pntRef="GPS0011">6178423.898586 495757.971791 41.220970</End>
+</Line>
+<Line>
+<Start pntRef="GPS0011">6178423.898586 495757.971791 41.220970</Start>
+<End pntRef="GPS0012">6178423.215486 495763.284299 41.260100</End>
+</Line>
+</CoordGeom>
+</PlanFeature>
+</PlanFeatures>
+<Survey>
+<SurveyHeader name="Jorden Rundt F_0"/>
+<Equipment>
+<GPSReceiverDetails id="NA" manufacturer="Leica Geosystems AG"/>
+</Equipment>
+<GPSSetup id="RefStationId-2" antennaHeight="0.000000" stationName="RTCM-Ref 0002">
+<GPSPosition pntRef="RTCM-Ref 0002" wgsLatitude="55.753765294572" wgsLongitude="8.962217387183" wgsHeight="91.684739">
+<TargetPoint name="RTCM-Ref 0002" pntRef="RTCM-Ref 0002" >6178675.529162 497628.620878 51.245305</TargetPoint>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<Survey>
+<SurveyHeader name="Jorden Rundt F_1"/>
+<Equipment>
+<GPSReceiverDetails id="GPS_1" manufacturer="Leica Geosystems AG" model="CS15" serialNumber="1578230"/>
+</Equipment>
+<GPSSetup id="GPSSetupID_4" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0001">
+<GPSPosition pntRef="GPS0001" wgsLatitude="55.751486628518" wgsLongitude="8.934136735261" wgsHeight="82.076890">
+<TargetPoint name="GPS0001" pntRef="GPS0001" >6178423.247848 495865.932622 41.612325</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000127068" covarianceXY="0.0000008367" covarianceXZ="-0.0000018046" covarianceYY="0.0000055329" covarianceYZ="-0.0000000465" covarianceZZ="0.0000383417" RMS="1.452588"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_6" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0002">
+<GPSPosition pntRef="GPS0002" wgsLatitude="55.751452874197" wgsLongitude="8.932957707467" wgsHeight="81.837505">
+<TargetPoint name="GPS0002" pntRef="GPS0002" >6178419.562186 495791.924465 41.371940</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000116331" covarianceXY="-0.0000004723" covarianceXZ="0.0000029564" covarianceYY="0.0000055431" covarianceYZ="-0.0000006700" covarianceZZ="0.0000476783" RMS="2.092640"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_8" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0003">
+<GPSPosition pntRef="GPS0003" wgsLatitude="55.751452810760" wgsLongitude="8.932957771673" wgsHeight="81.844207">
+<TargetPoint name="GPS0003" pntRef="GPS0003" >6178419.555122 495791.928488 41.378643</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000116420" covarianceXY="-0.0000004785" covarianceXZ="0.0000030079" covarianceYY="0.0000055464" covarianceYZ="-0.0000006603" covarianceZZ="0.0000477790" RMS="2.060410"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_10" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0004">
+<GPSPosition pntRef="GPS0004" wgsLatitude="55.751465029552" wgsLongitude="8.932796535507" wgsHeight="81.779360">
+<TargetPoint name="GPS0004" pntRef="GPS0004" >6178420.924785 495781.809421 41.313670</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000221326" covarianceXY="-0.0000015012" covarianceXZ="0.0000054468" covarianceYY="0.0000072967" covarianceYZ="0.0000012195" covarianceZZ="0.0000552924" RMS="2.076381"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_12" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0005">
+<GPSPosition pntRef="GPS0005" wgsLatitude="55.751478429927" wgsLongitude="8.932604684715" wgsHeight="81.729582">
+<TargetPoint name="GPS0005" pntRef="GPS0005" >6178422.427842 495769.768887 41.263746</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000115397" covarianceXY="-0.0000004659" covarianceXZ="0.0000011817" covarianceYY="0.0000055506" covarianceYZ="0.0000000124" covarianceZZ="0.0000477955" RMS="2.844306"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_14" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0006">
+<GPSPosition pntRef="GPS0006" wgsLatitude="55.751479321902" wgsLongitude="8.932597080757" wgsHeight="81.733109">
+<TargetPoint name="GPS0006" pntRef="GPS0006" >6178422.527576 495769.291702 41.267266</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000128962" covarianceXY="-0.0000009916" covarianceXZ="0.0000035055" covarianceYY="0.0000057849" covarianceYZ="-0.0000005663" covarianceZZ="0.0000537746" RMS="3.449016"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_16" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0007">
+<GPSPosition pntRef="GPS0007" wgsLatitude="55.751479441892" wgsLongitude="8.932596317890" wgsHeight="81.734338">
+<TargetPoint name="GPS0007" pntRef="GPS0007" >6178422.540977 495769.243832 41.268495</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000123524" covarianceXY="-0.0000007138" covarianceXZ="0.0000045198" covarianceYY="0.0000056328" covarianceYZ="-0.0000009093" covarianceZZ="0.0000519206" RMS="1.627419"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_18" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0008">
+<GPSPosition pntRef="GPS0008" wgsLatitude="55.751482819471" wgsLongitude="8.932541596195" wgsHeight="81.692826">
+<TargetPoint name="GPS0008" pntRef="GPS0008" >6178422.920218 495765.809458 41.226941</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000126240" covarianceXY="-0.0000008105" covarianceXZ="0.0000038832" covarianceYY="0.0000056707" covarianceYZ="-0.0000006324" covarianceZZ="0.0000539236" RMS="1.644526"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_22" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0010">
+<GPSPosition pntRef="GPS0010" wgsLatitude="55.751482583811" wgsLongitude="8.932542000680" wgsHeight="81.696192">
+<TargetPoint name="GPS0010" pntRef="GPS0010" >6178422.893966 495765.834821 41.230307</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000113719" covarianceXY="-0.0000004218" covarianceXZ="0.0000026232" covarianceYY="0.0000055635" covarianceYZ="-0.0000001667" covarianceZZ="0.0000465620" RMS="2.635930"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_24" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0011">
+<GPSPosition pntRef="GPS0011" wgsLatitude="55.751491541801" wgsLongitude="8.932416712711" wgsHeight="81.686951">
+<TargetPoint name="GPS0011" pntRef="GPS0011" >6178423.898586 495757.971791 41.220970</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000222484" covarianceXY="-0.0000064403" covarianceXZ="0.0000051546" covarianceYY="0.0000092238" covarianceYZ="0.0000003409" covarianceZZ="0.0000602013" RMS="1.916591"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_26" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GPS0012">
+<GPSPosition pntRef="GPS0012" wgsLatitude="55.751485450454" wgsLongitude="8.932501361245" wgsHeight="81.726016">
+<TargetPoint name="GPS0012" pntRef="GPS0012" >6178423.215486 495763.284299 41.260100</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000170103" covarianceXY="-0.0000019834" covarianceXZ="0.0000112076" covarianceYY="0.0000061874" covarianceYZ="-0.0000026713" covarianceZZ="0.0000658933" RMS="1.926091"/>
+</GPSPosition>
+</GPSSetup>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_4" dX="476.076528" dY="-1709.990261" dZ="-150.718268">
+<TargetPoint name="GPS0001" pntRef="GPS0001" >6178423.247848 495865.932622 41.612325</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_6" dX="490.509097" dY="-1782.665800" dZ="-153.031178">
+<TargetPoint name="GPS0002" pntRef="GPS0002" >6178419.562186 495791.924465 41.371940</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_8" dX="490.517965" dY="-1782.660325" dZ="-153.029613">
+<TargetPoint name="GPS0003" pntRef="GPS0003" >6178419.555122 495791.928488 41.378643</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_10" dX="490.943135" dY="-1792.842370" dZ="-152.317591">
+<TargetPoint name="GPS0004" pntRef="GPS0004" >6178420.924785 495781.809421 41.313670</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_12" dX="491.567722" dY="-1804.939062" dZ="-151.519076">
+<TargetPoint name="GPS0005" pntRef="GPS0005" >6178422.427842 495769.768887 41.263746</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_14" dX="491.562727" dY="-1805.423187" dZ="-151.460269">
+<TargetPoint name="GPS0006" pntRef="GPS0006" >6178422.527576 495769.291702 41.267266</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_16" dX="491.559939" dY="-1805.472116" dZ="-151.451734">
+<TargetPoint name="GPS0007" pntRef="GPS0007" >6178422.540977 495769.243832 41.268495</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_18" dX="491.763321" dY="-1808.918494" dZ="-151.274410">
+<TargetPoint name="GPS0008" pntRef="GPS0008" >6178422.920218 495765.809458 41.226941</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_22" dX="491.782674" dY="-1808.889742" dZ="-151.286395">
+<TargetPoint name="GPS0010" pntRef="GPS0010" >6178422.893966 495765.834821 41.230307</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_24" dX="492.184654" dY="-1816.790396" dZ="-150.732730">
+<TargetPoint name="GPS0011" pntRef="GPS0011" >6178423.898586 495757.971791 41.220970</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_26" dX="491.934862" dY="-1811.449037" dZ="-151.082119">
+<TargetPoint name="GPS0012" pntRef="GPS0012" >6178423.215486 495763.284299 41.260100</TargetPoint>
+</GPSVector>
+</Survey>
+<HexagonLandXML xmlns="http://xml.hexagon.com/schema/HeXML-1.5" xsi:schemaLocation="http://xml.hexagon.com/schema/HeXML-1.5 http://xml.hexagon.com/schema/HeXML-1.5.xsd" xmlns:landxml="http://www.landxml.org/schema/LandXML-1.2">
+<CoordinateSystem name="UTM32JY" type="classic" residualDistributionKind="no distribution">
+<Ellipsoid name="WGS 1984" SemiMajorAxis="6378137.000000" ReciprocFlattening="298.257224"/>
+<Projection name="UTM32">
+<UTMProjection hemisphere="north" zoneNumber="32"/>
+</Projection>
+<GeoidModel name="DVR90Jyl" geodeticDatumKind="WGS84" coordinateSystemKind="ellipsoidal"><landxml:DocFileRef name="DVR90Jyl.gem" location="-"/>
+</GeoidModel>
+</CoordinateSystem>
+<Point uniqueID="GPS0012" class="measured" subclass="GPS phase" lineworkFlag="END">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.665762" y="558632.291863" z="5248987.502880"/>
+<Geodetic lat="55.751485450454" lon="8.932501361245" hghtE="81.726016" hghthO="41.260100"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.665762" y="558632.291863" z="5248987.502880"/>
+<Geodetic lat="55.751485450454" lon="8.932501361245" hghtE="81.726016" hghthO="41.260100"/>
+<Grid e="495763.284299" n="6178423.215486" hghtE="81.726016" hghthO="41.260100"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000170103" Qxy="-0.0000019834" Qxz="0.0000112076" Qyy="0.0000061874" Qyz="-0.0000026713" Qzz="0.0000658933" CQ3D="0.018180" CQPos="0.009277" CQHeight="0.015635"/>
+</Point>
+<Point uniqueID="GPS0011" class="measured" subclass="GPS phase" lineworkFlag="CONT">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.915554" y="558626.950504" z="5248987.852270"/>
+<Geodetic lat="55.751491541801" lon="8.932416712711" hghtE="81.686951" hghthO="41.220970"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.915554" y="558626.950504" z="5248987.852270"/>
+<Geodetic lat="55.751491541801" lon="8.932416712711" hghtE="81.686951" hghthO="41.220970"/>
+<Grid e="495757.971791" n="6178423.898586" hghtE="81.686951" hghthO="41.220970"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000222484" Qxy="-0.0000064403" Qxz="0.0000051546" Qyy="0.0000092238" Qyz="0.0000003409" Qzz="0.0000602013" CQ3D="0.018351" CQPos="0.010752" CQHeight="0.014871"/>
+</Point>
+<Point uniqueID="GPS0010" class="measured" subclass="GPS phase" lineworkFlag="BEG">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.513574" y="558634.851158" z="5248987.298605"/>
+<Geodetic lat="55.751482583811" lon="8.932542000680" hghtE="81.696192" hghthO="41.230307"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.513574" y="558634.851158" z="5248987.298605"/>
+<Geodetic lat="55.751482583811" lon="8.932542000680" hghtE="81.696192" hghthO="41.230307"/>
+<Grid e="495765.834821" n="6178422.893966" hghtE="81.696192" hghthO="41.230307"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000113719" Qxy="-0.0000004218" Qxz="0.0000026232" Qyy="0.0000055635" Qyz="-0.0000001667" Qzz="0.0000465620" CQ3D="0.021004" CQPos="0.010848" CQHeight="0.017987"/>
+</Point>
+<Point uniqueID="GPS0009" class="measured" subclass="GPS phase" lineworkFlag="END">
+<Coordinates originalCoordSysKind="Grid" originalGeodeticDatumKind="Local" originalHeightKind="orthometric">
+<WGS84>
+<Cartesian x="3554159.494221" y="558634.822406" z="5248987.310589"/>
+<Geodetic lat="55.751482819470" lon="8.932541596195" hghtE="81.692826" hghthO="41.226941"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.494221" y="558634.822406" z="5248987.310589"/>
+<Geodetic lat="55.751482819470" lon="8.932541596195" hghtE="81.692826" hghthO="41.226941"/>
+<Grid e="495765.809458" n="6178422.920218" hghtE="81.692826" hghthO="41.226941"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber brønd" codeDesc="" codeGroup="Fiber" codeLinework="none">
+ <Attribute name="Dimension" value="90x50"/>
+</PointCode>
+<PointQuality Qxx="0.0000126240" Qxy="-0.0000008105" Qxz="0.0000038832" Qyy="0.0000056707" Qyz="-0.0000006324" Qzz="0.0000539236" CQ3D="0.013975" CQPos="0.007034" CQHeight="0.012076"/>
+</Point>
+<Point uniqueID="GPS0008" class="measured" subclass="GPS phase" lineworkFlag="CONT">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.494221" y="558634.822406" z="5248987.310589"/>
+<Geodetic lat="55.751482819471" lon="8.932541596195" hghtE="81.692826" hghthO="41.226941"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.494221" y="558634.822406" z="5248987.310589"/>
+<Geodetic lat="55.751482819471" lon="8.932541596195" hghtE="81.692826" hghthO="41.226941"/>
+<Grid e="495765.809458" n="6178422.920218" hghtE="81.692826" hghthO="41.226941"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000126240" Qxy="-0.0000008105" Qxz="0.0000038832" Qyy="0.0000056707" Qyz="-0.0000006324" Qzz="0.0000539236" CQ3D="0.013975" CQPos="0.007034" CQHeight="0.012076"/>
+</Point>
+<Point uniqueID="GPS0007" class="measured" subclass="GPS phase" lineworkFlag="BEG">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.290839" y="558638.268784" z="5248987.133266"/>
+<Geodetic lat="55.751479441892" lon="8.932596317890" hghtE="81.734338" hghthO="41.268495"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.290839" y="558638.268784" z="5248987.133266"/>
+<Geodetic lat="55.751479441892" lon="8.932596317890" hghtE="81.734338" hghthO="41.268495"/>
+<Grid e="495769.243832" n="6178422.540977" hghtE="81.734338" hghthO="41.268495"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000123524" Qxy="-0.0000007138" Qxz="0.0000045198" Qyy="0.0000056328" Qyz="-0.0000009093" Qzz="0.0000519206" CQ3D="0.013607" CQPos="0.006902" CQHeight="0.011727"/>
+</Point>
+<Point uniqueID="GPS0006" class="measured" subclass="GPS phase">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.293627" y="558638.317713" z="5248987.124731"/>
+<Geodetic lat="55.751479321902" lon="8.932597080757" hghtE="81.733109" hghthO="41.267266"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.293627" y="558638.317713" z="5248987.124731"/>
+<Geodetic lat="55.751479321902" lon="8.932597080757" hghtE="81.733109" hghthO="41.267266"/>
+<Grid e="495769.291702" n="6178422.527576" hghtE="81.733109" hghthO="41.267266"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber brønd" codeDesc="" codeGroup="Fiber" codeLinework="none">
+ <Attribute name="Dimension" value="120x400"/>
+</PointCode>
+<PointQuality Qxx="0.0000128962" Qxy="-0.0000009916" Qxz="0.0000035055" Qyy="0.0000057849" Qyz="-0.0000005663" Qzz="0.0000537746" CQ3D="0.029358" CQPos="0.014907" CQHeight="0.025292"/>
+</Point>
+<Point uniqueID="GPS0005" class="measured" subclass="GPS phase" lineworkFlag="END">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554159.298622" y="558638.801838" z="5248987.065924"/>
+<Geodetic lat="55.751478429927" lon="8.932604684715" hghtE="81.729582" hghthO="41.263746"/>
+</WGS84>
+<Local>
+<Cartesian x="3554159.298622" y="558638.801838" z="5248987.065924"/>
+<Geodetic lat="55.751478429927" lon="8.932604684715" hghtE="81.729582" hghthO="41.263746"/>
+<Grid e="495769.768887" n="6178422.427842" hghtE="81.729582" hghthO="41.263746"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000115397" Qxy="-0.0000004659" Qxz="0.0000011817" Qyy="0.0000055506" Qyz="0.0000000124" Qzz="0.0000477955" CQ3D="0.022911" CQPos="0.011758" CQHeight="0.019664"/>
+</Point>
+<Point uniqueID="GPS0004" class="measured" subclass="GPS phase" lineworkFlag="CONT">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554158.674035" y="558650.898530" z="5248986.267409"/>
+<Geodetic lat="55.751465029552" lon="8.932796535507" hghtE="81.779360" hghthO="41.313670"/>
+</WGS84>
+<Local>
+<Cartesian x="3554158.674035" y="558650.898530" z="5248986.267409"/>
+<Geodetic lat="55.751465029552" lon="8.932796535507" hghtE="81.779360" hghthO="41.313670"/>
+<Grid e="495781.809421" n="6178420.924785" hghtE="81.779360" hghthO="41.313670"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000221326" Qxy="-0.0000015012" Qxz="0.0000054468" Qyy="0.0000072967" Qyz="0.0000012195" Qzz="0.0000552924" CQ3D="0.019112" CQPos="0.011264" CQHeight="0.015440"/>
+</Point>
+<Point uniqueID="GPS0003" class="measured" subclass="GPS phase" lineworkFlag="BEG">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554158.248865" y="558661.080575" z="5248985.555387"/>
+<Geodetic lat="55.751452810760" lon="8.932957771673" hghtE="81.844207" hghthO="41.378643"/>
+</WGS84>
+<Local>
+<Cartesian x="3554158.248865" y="558661.080575" z="5248985.555387"/>
+<Geodetic lat="55.751452810760" lon="8.932957771673" hghtE="81.844207" hghthO="41.378643"/>
+<Grid e="495791.928488" n="6178419.555122" hghtE="81.844207" hghthO="41.378643"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000116420" Qxy="-0.0000004785" Qxz="0.0000030079" Qyy="0.0000055464" Qyz="-0.0000006603" Qzz="0.0000477790" CQ3D="0.016607" CQPos="0.008542" CQHeight="0.014242"/>
+</Point>
+<Point uniqueID="GPS0002" class="measured" subclass="GPS phase">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554158.239997" y="558661.075100" z="5248985.553821"/>
+<Geodetic lat="55.751452874197" lon="8.932957707467" hghtE="81.837505" hghthO="41.371940"/>
+</WGS84>
+<Local>
+<Cartesian x="3554158.239997" y="558661.075100" z="5248985.553821"/>
+<Geodetic lat="55.751452874197" lon="8.932957707467" hghtE="81.837505" hghthO="41.371940"/>
+<Grid e="495791.924465" n="6178419.562186" hghtE="81.837505" hghthO="41.371940"/>
+</Local>
+</Coordinates>
+<PointQuality Qxx="0.0000116331" Qxy="-0.0000004723" Qxz="0.0000029564" Qyy="0.0000055431" Qyz="-0.0000006700" Qzz="0.0000476783" CQ3D="0.016853" CQPos="0.008673" CQHeight="0.014450"/>
+</Point>
+<Point uniqueID="GPS0001" class="measured" subclass="GPS phase">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554143.807428" y="558733.750639" z="5248987.866732"/>
+<Geodetic lat="55.751486628518" lon="8.934136735261" hghtE="82.076890" hghthO="41.612325"/>
+</WGS84>
+<Local>
+<Cartesian x="3554143.807428" y="558733.750639" z="5248987.866732"/>
+<Geodetic lat="55.751486628518" lon="8.934136735261" hghtE="82.076890" hghthO="41.612325"/>
+<Grid e="495865.932622" n="6178423.247848" hghtE="82.076890" hghthO="41.612325"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kvejl" codeDesc="" codeGroup="Fiber" codeLinework="none">
+ <Attribute name="Kabelfarve" value="Blå"/>
+</PointCode>
+<PointQuality Qxx="0.0000127068" Qxy="0.0000008367" Qxz="-0.0000018046" Qyy="0.0000055329" Qyz="-0.0000000465" Qzz="0.0000383417" CQ3D="0.010926" CQPos="0.006204" CQHeight="0.008995"/>
+</Point>
+<Point uniqueID="RTCM-Ref 0002" class="reference" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3553667.730900" y="560443.740900" z="5249138.585000"/>
+<Geodetic lat="55.753765294572" lon="8.962217387183" hghtE="91.684739" hghthO="51.245305"/>
+</WGS84>
+<Local>
+<Cartesian x="3553667.730900" y="560443.740900" z="5249138.585000"/>
+<Geodetic lat="55.753765294572" lon="8.962217387183" hghtE="91.684739" hghthO="51.245305"/>
+<Grid e="497628.620878" n="6178675.529162" hghtE="91.684739" hghthO="51.245305"/>
+</Local>
+</Coordinates>
+<PointQuality/>
+</Point>
+<Survey name="Jorden Rundt F_1" Description1="Fiber" Creator="SNN" SurveyDuration="P0Y0M0DT0H33M32S">
+<GPSSetup uniqueID="GPSSetupID_4">
+<GPSPosition targetPntRef="GPS0001">
+<GPSQuality HDOP="0.700000" GDOP="1.555635" PDOP="1.389244" VDOP="1.200000" TDOP="0.700000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GLONASSSatTracked="6" GLONASSSatUsed="6"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_6">
+<GPSPosition targetPntRef="GPS0002">
+<GPSQuality HDOP="0.700000" GDOP="1.603122" PDOP="1.389244" VDOP="1.200000" TDOP="0.800000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GLONASSSatTracked="5" GLONASSSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_8">
+<GPSPosition targetPntRef="GPS0003">
+<GPSQuality HDOP="0.700000" GDOP="1.603122" PDOP="1.389244" VDOP="1.200000" TDOP="0.800000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GLONASSSatTracked="5" GLONASSSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_10">
+<GPSPosition targetPntRef="GPS0004">
+<GPSQuality HDOP="0.800000" GDOP="1.972308" PDOP="1.700000" VDOP="1.500000" TDOP="1.000000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GLONASSSatTracked="5" GLONASSSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_12">
+<GPSPosition targetPntRef="GPS0005">
+<GPSQuality HDOP="0.800000" GDOP="1.846619" PDOP="1.612452" VDOP="1.400000" TDOP="0.900000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GLONASSSatTracked="4" GLONASSSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_14">
+<GPSPosition targetPntRef="GPS0006">
+<GPSQuality HDOP="0.900000" GDOP="2.193171" PDOP="1.835756" VDOP="1.600000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GLONASSSatTracked="4" GLONASSSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_16">
+<GPSPosition targetPntRef="GPS0007">
+<GPSQuality HDOP="0.800000" GDOP="1.972308" PDOP="1.700000" VDOP="1.500000" TDOP="1.000000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GLONASSSatTracked="5" GLONASSSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_18">
+<GPSPosition targetPntRef="GPS0008">
+<GPSQuality HDOP="0.800000" GDOP="2.100000" PDOP="1.788854" VDOP="1.600000" TDOP="1.100000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GLONASSSatTracked="4" GLONASSSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_22">
+<GPSPosition targetPntRef="GPS0010">
+<GPSQuality HDOP="0.700000" GDOP="1.603122" PDOP="1.389244" VDOP="1.200000" TDOP="0.800000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GLONASSSatTracked="5" GLONASSSatUsed="5"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_24">
+<GPSPosition targetPntRef="GPS0011">
+<GPSQuality HDOP="0.900000" GDOP="2.140093" PDOP="1.835756" VDOP="1.600000" TDOP="1.100000"/>
+<SatelliteInfo GPSSatTracked="6" GPSSatUsed="6" GLONASSSatTracked="4" GLONASSSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_26">
+<GPSPosition targetPntRef="GPS0012">
+<GPSQuality HDOP="1.000000" GDOP="2.308679" PDOP="1.972308" VDOP="1.700000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="7" GPSSatUsed="7" GLONASSSatTracked="4" GLONASSSatUsed="4"/>
+<RTKInfo referenceRef="RTCM-Ref 0002" networkSolution="true" networkType="MAC" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10301" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="6" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<PlanFeature name="Line0001">
+<LineCode code="Fiber multirør" codeDesc="" color="0x00000000" style="Dot" codeGroup="Fiber">
+<Attribute name="Dimension" value="Flatliner(6xØ14)"/>
+<Attribute name="Opm metode" value="Lukket grav"/>
+<Attribute name="Antal" value="1"/>
+</LineCode>
+</PlanFeature>
+<PlanFeature name="Line0002">
+<LineCode code="Fiber multirør" codeDesc="" color="0x00000000" style="Dot" codeGroup="Fiber">
+<Attribute name="Dimension" value="Flatliner(6xØ14)"/>
+<Attribute name="Opm metode" value="Lukket grav"/>
+<Attribute name="Antal" value="1"/>
+</LineCode>
+</PlanFeature>
+<PlanFeature name="Line0003">
+<LineCode code="Fiber kabel" codeDesc="" color="0x00000000" style="Dot" codeGroup="Fiber">
+<Attribute name="Antal" value="1"/>
+<Attribute name="Opm metode" value="Åben grav"/>
+</LineCode>
+</PlanFeature>
+<Codelist codelistName="Jorden Rundt F">
+  <CodeGroup codeGroupName="Fiber" activatedOnInstrument="true">
+    <Code codeName="Fiber multirør" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø50 (6xØ12)"/>
+                <textList textListValue="Flatliner(6xØ14)"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Åben grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer integerDefaultValue="1">
+            </integer>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber singlerør" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Åben grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer integerDefaultValue="1">
+            </integer>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø12"/>
+                <textList textListValue="Ø14"/>
+                <textList textListValue="Ø20"/>
+                <textList textListValue="Ø50"/>
+                <textList textListValue="Ø110"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber kabel" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Integer" valueRegion="None">
+            <integer integerDefaultValue="1">
+            </integer>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Åben grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber rørmuffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Åben grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Subtubefarve" attributeType="Normal" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød"/>
+                <textList textListValue="Blå"/>
+                <textList textListValue="Gul"/>
+                <textList textListValue="Grøn"/>
+                <textList textListValue="Hvid"/>
+                <textList textListValue="Grå"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø50 2xlang u/hor"/>
+                <textList textListValue="Ø50 4xlang m/hor"/>
+                <textList textListValue="Ø50 t/ 6-fiber"/>
+                <textList textListValue="Ø7 samlemuffe"/>
+                <textList textListValue="Ø12 samlemuffe"/>
+                <textList textListValue="Ø14 samlemuffe"/>
+                <textList textListValue="Ø20 samlemuffe"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber splidsemuf" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="6 fiber"/>
+                <textList textListValue="96 fiber"/>
+                <textList textListValue="96/6 afgrening"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Åben grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Kabelfarve" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød"/>
+                <textList textListValue="Blå"/>
+                <textList textListValue="Gul"/>
+                <textList textListValue="Grøn"/>
+                <textList textListValue="Hvid"/>
+                <textList textListValue="Grå"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber brønd" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="90x50"/>
+                <textList textListValue="90x90x170"/>
+                <textList textListValue="120x400"/>
+                <textList textListValue="160x85"/>
+                <textList textListValue="400x800x900"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber skab" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="12 kunder"/>
+                <textList textListValue="32 kunder"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber POP" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber kvejl" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Kabelfarve" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød"/>
+                <textList textListValue="Blå"/>
+                <textList textListValue="Gul"/>
+                <textList textListValue="Grøn"/>
+                <textList textListValue="Hvid"/>
+                <textList textListValue="Grå"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+</Codelist>
+</HexagonLandXML>
+</LandXML>

@@ -1,0 +1,399 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495765.809458,
+          6178422.920218,
+          41.226941
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:49:42",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495765.809458,
+        "SurveyY": 6178422.920218,
+        "SurveyZ": 41.226941,
+        "SurveyPointId": "GPS0009",
+        "SurveyPrecisionXY": 0.007034,
+        "SurveyPrecisionZ": 0.012076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495769.291702,
+          6178422.527576,
+          41.267266
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:47:28",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495769.291702,
+        "SurveyY": 6178422.527576,
+        "SurveyZ": 41.267266,
+        "SurveyPointId": "GPS0006",
+        "SurveyPrecisionXY": 0.014907,
+        "SurveyPrecisionZ": 0.025292
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495765.834821,
+          6178422.893966,
+          41.230307
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:52:39",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495765.834821,
+        "SurveyY": 6178422.893966,
+        "SurveyZ": 41.230307,
+        "SurveyPointId": "GPS0010",
+        "SurveyPrecisionXY": 0.010848,
+        "SurveyPrecisionZ": 0.017987
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495757.971791,
+          6178423.898586,
+          41.22097
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:53:08",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495757.971791,
+        "SurveyY": 6178423.898586,
+        "SurveyZ": 41.22097,
+        "SurveyPointId": "GPS0011",
+        "SurveyPrecisionXY": 0.010752,
+        "SurveyPrecisionZ": 0.014871
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495763.284299,
+          6178423.215486,
+          41.2601
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:53:29",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495763.284299,
+        "SurveyY": 6178423.215486,
+        "SurveyZ": 41.2601,
+        "SurveyPointId": "GPS0012",
+        "SurveyPrecisionXY": 0.009277,
+        "SurveyPrecisionZ": 0.015635
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495791.928488,
+          6178419.555122,
+          41.378643
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:45:58",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495791.928488,
+        "SurveyY": 6178419.555122,
+        "SurveyZ": 41.378643,
+        "SurveyPointId": "GPS0003",
+        "SurveyPrecisionXY": 0.008542,
+        "SurveyPrecisionZ": 0.014242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495781.809421,
+          6178420.924785,
+          41.31367
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:46:29",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495781.809421,
+        "SurveyY": 6178420.924785,
+        "SurveyZ": 41.31367,
+        "SurveyPointId": "GPS0004",
+        "SurveyPrecisionXY": 0.011264,
+        "SurveyPrecisionZ": 0.01544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495769.768887,
+          6178422.427842,
+          41.263746
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:46:54",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495769.768887,
+        "SurveyY": 6178422.427842,
+        "SurveyZ": 41.263746,
+        "SurveyPointId": "GPS0005",
+        "SurveyPrecisionXY": 0.011758,
+        "SurveyPrecisionZ": 0.019664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495769.243832,
+          6178422.540977,
+          41.268495
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:48:07",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495769.243832,
+        "SurveyY": 6178422.540977,
+        "SurveyZ": 41.268495,
+        "SurveyPointId": "GPS0007",
+        "SurveyPrecisionXY": 0.006902,
+        "SurveyPrecisionZ": 0.011727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495765.809458,
+          6178422.920218,
+          41.226941
+        ]
+      },
+      "properties": {
+        "DatasetName": "SurveyPoint",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyImportedBy": "grummehans",
+        "SurveyMeasuredDate": "26-08-2013 11:48:32",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyX": 495765.809458,
+        "SurveyY": 6178422.920218,
+        "SurveyZ": 41.226941,
+        "SurveyPointId": "GPS0008",
+        "SurveyPrecisionXY": 0.007034,
+        "SurveyPrecisionZ": 0.012076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495765.809458,
+          6178422.920218,
+          41.226941
+        ]
+      },
+      "properties": {
+        "DatasetName": "survey.fiberwell",
+        "ManufacturerType": "90x50",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyMeasuredDate": "26-08-2013 11:49:42",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyImportedBy": "grummehans",
+        "SurveyPrecisionXY": 0.007034,
+        "SurveyPrecisionZ": 0.012076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          495769.291702,
+          6178422.527576,
+          41.267266
+        ]
+      },
+      "properties": {
+        "DatasetName": "survey.fiberwell",
+        "ManufacturerType": "120x400",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyMeasuredDate": "26-08-2013 11:47:28",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyImportedBy": "grummehans",
+        "SurveyPrecisionXY": 0.014907,
+        "SurveyPrecisionZ": 0.025292
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            495765.834821,
+            6178422.893966,
+            41.230307
+          ],
+          [
+            495757.971791,
+            6178423.898586,
+            41.22097
+          ],
+          [
+            495763.284299,
+            6178423.215486,
+            41.2601
+          ]
+        ]
+      },
+      "properties": {
+        "DatasetName": "survey.fibercable",
+        "antal": "1",
+        "opm metode": "Åben grav",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyMeasuredDate": "26-08-2013 11:52:39",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyImportedBy": "grummehans",
+        "SurveyPrecisionXY": 0.010292333333333334,
+        "SurveyPrecisionZ": 0.016164333333333333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            495791.928488,
+            6178419.555122,
+            41.378643
+          ],
+          [
+            495781.809421,
+            6178420.924785,
+            41.31367
+          ],
+          [
+            495769.768887,
+            6178422.427842,
+            41.263746
+          ]
+        ]
+      },
+      "properties": {
+        "DatasetName": "survey.fiberconduit",
+        "ConduitCategory": "MultiConduit",
+        "ManufacturerType": "Flatliner(6xØ14)",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyMeasuredDate": "26-08-2013 11:45:58",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyImportedBy": "grummehans",
+        "SurveyPrecisionXY": 0.010521333333333332,
+        "SurveyPrecisionZ": 0.016448666666666667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            495769.243832,
+            6178422.540977,
+            41.268495
+          ],
+          [
+            495765.809458,
+            6178422.920218,
+            41.226941
+          ]
+        ]
+      },
+      "properties": {
+        "DatasetName": "survey.fiberconduit",
+        "ConduitCategory": "MultiConduit",
+        "ManufacturerType": "Flatliner(6xØ14)",
+        "SurveyJobName": "test",
+        "SurveyProjectName": "test",
+        "SurveyMeasuredDate": "26-08-2013 11:48:07",
+        "SurveyImportedDate": "15-01-2019 18:52:51",
+        "SurveyImportedBy": "grummehans",
+        "SurveyPrecisionXY": 0.006968,
+        "SurveyPrecisionZ": 0.011901499999999999
+      }
+    }
+  ]
+}
