@@ -72,5 +72,29 @@ namespace DAX.LandLink.Tests
 
             var result = response.Content.ReadAsStringAsync().Result;
         }
+
+
+        [TestMethod]
+        public void KlavsJsonTest()
+        {
+            var geoJsonFilename = _testDataPath + "/GeoJson/Klavs.geojson";
+
+            var url = "http://localhost:53518/api/transformation";
+
+            var httpClient = new HttpClient();
+
+            string uploadFileContent = File.ReadAllText(geoJsonFilename);
+
+            var request = new HttpRequestMessage(HttpMethod.Post, url + "?specificationName=LeicaLandXmlExport");
+
+            //var request = new HttpRequestMessage(HttpMethod.Post, url + "?specificationName=TelenetExport");
+
+            request.Content = new StringContent(uploadFileContent, Encoding.UTF8, "text/xml");
+            var response = httpClient.SendAsync(request).Result;
+
+            var result = response.Content.ReadAsStringAsync().Result;
+
+
+        }
     }
 }
