@@ -115,23 +115,5 @@ namespace DAX.LandLink.Tests
             Assert.IsTrue(result.ToLower().Contains("empty"));
         }
 
-        [TestMethod]
-        public void TestCrapFile()
-        {
-            var httpClient = new HttpClient();
-            var url = "http://localhost:53518/api";
-
-            // Upload Fiber1.xml
-            string uploadFileContent = File.ReadAllText(_testDataPath + "LeicaLandXML/Fiber2.xml");
-
-            var request = new HttpRequestMessage(HttpMethod.Post, url + "/transformation?specificationName=LandXML Import&projectName=test&jobName=test&userName=grummehans");
-            request.Content = new StringContent(uploadFileContent, Encoding.UTF8, "text/xml");
-            var response = httpClient.SendAsync(request).Result;
-            var result = response.Content.ReadAsStringAsync().Result;
-
-            Assert.IsTrue(response.StatusCode == HttpStatusCode.BadRequest);
-            Assert.IsTrue(result.ToLower().Contains("empty"));
-        }
-
     }
 }
