@@ -35,6 +35,12 @@ namespace DAX.LandLink.WebService.Controllers
                 System.IO.StreamReader reader = new System.IO.StreamReader(httpRequest.InputStream);
                 string inputData = reader.ReadToEnd();
 
+                if (inputData == null || inputData.Length == 0)
+                {
+                    Logger.Error("Input data cannot be null or length = 0!");
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "Input data cannot be null. No data send in post request. Check if file is empty.", new JsonMediaTypeFormatter());
+                }
+
                 string landLinkConfig = AppSettings.Get("LandLinkConfigFile");
 
                 var config = new TransformationConfig().LoadFromFile(landLinkConfig);
@@ -47,6 +53,15 @@ namespace DAX.LandLink.WebService.Controllers
                 }
 
                 var daxReader = transformer.GetFirstDataReader();
+
+                // Log out first 200 bytes of input data
+                int subStringLen = 200;
+
+                if (inputData.Length < subStringLen)
+                    subStringLen = inputData.Length;
+
+                Logger.Debug("Input data stream (max 200 bytes): " + inputData.Substring(0, subStringLen));
+
 
                 transformer.GetFirstDataReader().Open(inputData);
 

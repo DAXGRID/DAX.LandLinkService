@@ -96,5 +96,24 @@ namespace DAX.LandLink.Tests
 
 
         }
+
+        [TestMethod]
+        public void TestEmptyFileTransformation()
+        {
+            var httpClient = new HttpClient();
+            var url = "http://localhost:53518/api";
+
+            // Upload Fiber1.xml
+            string uploadFileContent = File.ReadAllText(_testDataPath + "LeicaLandXML/EmptyFile.xml");
+
+            var request = new HttpRequestMessage(HttpMethod.Post, url + "/transformation?specificationName=LandXmlImport&projectName=test&jobName=test&userName=grummehans");
+            request.Content = new StringContent(uploadFileContent, Encoding.UTF8, "text/xml");
+            var response = httpClient.SendAsync(request).Result;
+            var result = response.Content.ReadAsStringAsync().Result;
+
+            Assert.IsTrue(response.StatusCode == HttpStatusCode.BadRequest);
+            Assert.IsTrue(result.ToLower().Contains("empty"));
+        }
+
     }
 }
