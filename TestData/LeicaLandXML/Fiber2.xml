@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" version="1.2" date="2020-07-08" time="11:25:39.98" readOnly="false" language="English">
+<Units>
+<Metric linearUnit="meter" areaUnit="squareMeter" volumeUnit="cubicMeter" angularUnit="grads" latLongAngularUnit="decimal degrees" temperatureUnit="celsius" pressureUnit="milliBars"/>
+</Units>
+<CoordinateSystem name="UTM32JY" horizontalDatum="Local" verticalDatum="Local" ellipsoidName="WGS 1984" projectedCoordinateSystemName="UTM32" fileLocation="">
+</CoordinateSystem>
+<Application name="Leica Captivate LandXML Export" manufacturer="Leica Geosystems AG" version="4.10" manufacturerURL="www.leica-geosystems.com">
+<Author company="Leica Geosystems AG" companyURL="www.leica-geosystems.com" timeStamp="2020-07-08T11:25:39.98"/>
+</Application>
+<CgPoints>
+<CgPoint name="GS0009" oID="GS0009" code="Fiber kabel" desc="" role="measured" latitude="55.754671120713475" longitude="8.916708696617803" ellipsoidHeight="79.004644" timeStamp="2020-07-07T10:34:28.85">6178778.835725 494772.445689 38.522729</CgPoint>
+<CgPoint name="GS0008" oID="GS0008" code="Fiber kabel" desc="" role="measured" latitude="55.754672524136794" longitude="8.916696337463895" ellipsoidHeight="79.126726" timeStamp="2020-07-07T10:34:08.14">6178778.992848 494771.670188 38.644800</CgPoint>
+<CgPoint name="GS0007" oID="GS0007" code="Fiber kabel" desc="" role="measured" latitude="55.754684215562925" longitude="8.916579519593460" ellipsoidHeight="79.247730" timeStamp="2020-07-07T10:32:51.20">6178780.302837 494764.339997 38.765712</CgPoint>
+<CgPoint name="GS0006" oID="GS0006" code="Fiber kabel" desc="" role="measured" latitude="55.754697484612848" longitude="8.916420466995412" ellipsoidHeight="78.446780" timeStamp="2020-07-07T10:32:34.20">6178781.791613 494754.359276 37.964632</CgPoint>
+<CgPoint name="GS0005" oID="GS0005" code="Fiber kabel" desc="" role="measured" latitude="55.754698179553579" longitude="8.916410302005430" ellipsoidHeight="78.538649" timeStamp="2020-07-07T10:31:45.55">6178781.869724 494753.721392 38.056494</CgPoint>
+<CgPoint name="GS0004" oID="GS0004" code="Fiber splidsemuf" desc="" role="measured" latitude="55.754698165003767" longitude="8.916410192632464" ellipsoidHeight="78.541320" timeStamp="2020-07-07T10:30:58.09">6178781.868113 494753.714525 38.059165</CgPoint>
+<CgPoint name="GS0003" oID="GS0003" code="Fiber kabel" desc="" role="measured" latitude="55.754698200729599" longitude="8.916410230151941" ellipsoidHeight="78.542517" timeStamp="2020-07-07T10:30:39.05">6178781.872086 494753.716885 38.060363</CgPoint>
+<CgPoint name="GS0002" oID="GS0002" code="Fiber kabel" desc="" role="measured" latitude="55.754697796608873" longitude="8.916413360455644" ellipsoidHeight="78.415577" timeStamp="2020-07-07T10:30:30.04">6178781.826873 494753.913295 37.933422</CgPoint>
+<CgPoint name="GS0001" oID="GS0001" code="Fiber kabel" desc="" role="measured" latitude="55.754551929879476" longitude="8.916349157921989" ellipsoidHeight="78.818496" timeStamp="2020-07-07T10:29:38.94">6178765.597820 494749.864208 38.336200</CgPoint>
+<CgPoint name="RTCM-Ref 0039" oID="RTCM-Ref 0039" latitude="55.753765294572467" longitude="8.962217387182971" ellipsoidHeight="91.684739" timeStamp="2020-07-07T10:29:09.36">6178675.529162 497628.620878 51.239396</CgPoint>
+</CgPoints>
+<PlanFeatures>
+<PlanFeature name="Fiber kabel_001">
+<CoordGeom>
+<Line oID="Fiber kabel_001_0001">
+<Start pntRef="GS0001">6178765.597820 494749.864208 38.336200</Start>
+<End pntRef="GS0002">6178781.826873 494753.913295 37.933422</End>
+</Line>
+<Line oID="Fiber kabel_001_0002">
+<Start pntRef="GS0002">6178781.826873 494753.913295 37.933422</Start>
+<End pntRef="GS0003">6178781.872086 494753.716885 38.060363</End>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="Fiber kabel_002">
+<CoordGeom>
+<Line oID="Fiber kabel_002_0001">
+<Start pntRef="GS0005">6178781.869724 494753.721392 38.056494</Start>
+<End pntRef="GS0006">6178781.791613 494754.359276 37.964632</End>
+</Line>
+<Line oID="Fiber kabel_002_0002">
+<Start pntRef="GS0006">6178781.791613 494754.359276 37.964632</Start>
+<End pntRef="GS0007">6178780.302837 494764.339997 38.765712</End>
+</Line>
+<Line oID="Fiber kabel_002_0003">
+<Start pntRef="GS0007">6178780.302837 494764.339997 38.765712</Start>
+<End pntRef="GS0008">6178778.992848 494771.670188 38.644800</End>
+</Line>
+<Line oID="Fiber kabel_002_0004">
+<Start pntRef="GS0008">6178778.992848 494771.670188 38.644800</Start>
+<End pntRef="GS0009">6178778.835725 494772.445689 38.522729</End>
+</Line>
+</CoordGeom>
+</PlanFeature>
+</PlanFeatures>
+<Survey>
+<SurveyHeader name="FIBER PILEVEJ 5_0"/>
+<Equipment>
+<GPSReceiverDetails id="NA" manufacturer="Leica Geosystems AG"/>
+</Equipment>
+<GPSSetup id="RefStationId-2" antennaHeight="0.000000" stationName="RTCM-Ref 0039">
+<GPSPosition pntRef="RTCM-Ref 0039" wgsLatitude="55.753765294572467" wgsLongitude="8.962217387182971" wgsHeight="91.684739">
+<TargetPoint name="RTCM-Ref 0039" pntRef="RTCM-Ref 0039" >6178675.529162 497628.620878 51.239396</TargetPoint>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<Survey>
+<SurveyHeader name="FIBER PILEVEJ 5_1"/>
+<Equipment>
+<GPSReceiverDetails id="GPS_1" manufacturer="Leica Geosystems AG" model="CS20" serialNumber="2475962"/>
+</Equipment>
+<GPSSetup id="GPSSetupID_4" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0001">
+<GPSPosition pntRef="GS0001" wgsLatitude="55.754551929879476" wgsLongitude="8.916349157921989" wgsHeight="78.818496">
+<TargetPoint name="GS0001" pntRef="GS0001" >6178765.597820 494749.864208 38.336200</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000710651" covarianceXY="0.0000062657" covarianceXZ="0.0000040464" covarianceYY="0.0000486334" covarianceYZ="0.0000118693" covarianceZZ="0.0001670501" RMS="1.000000" startTime="1278145796" stopTime="1278145796"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_6" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0002">
+<GPSPosition pntRef="GS0002" wgsLatitude="55.754697796608873" wgsLongitude="8.916413360455644" wgsHeight="78.415577">
+<TargetPoint name="GS0002" pntRef="GS0002" >6178781.826873 494753.913295 37.933422</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000734181" covarianceXY="0.0000065699" covarianceXZ="-0.0000023643" covarianceYY="0.0000701210" covarianceYZ="0.0000280993" covarianceZZ="0.0003123210" RMS="1.000000" startTime="1278145847" stopTime="1278145847"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_8" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0003">
+<GPSPosition pntRef="GS0003" wgsLatitude="55.754698200729599" wgsLongitude="8.916410230151941" wgsHeight="78.542517">
+<TargetPoint name="GS0003" pntRef="GS0003" >6178781.872086 494753.716885 38.060363</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000639498" covarianceXY="-0.0000008791" covarianceXZ="0.0000032993" covarianceYY="0.0000643553" covarianceYZ="0.0000171916" covarianceZZ="0.0002163694" RMS="1.000000" startTime="1278145856" stopTime="1278145856"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_10" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0004">
+<GPSPosition pntRef="GS0004" wgsLatitude="55.754698165003767" wgsLongitude="8.916410192632464" wgsHeight="78.541320">
+<TargetPoint name="GS0004" pntRef="GS0004" >6178781.868113 494753.714525 38.059165</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000610953" covarianceXY="-0.0000052677" covarianceXZ="0.0000015306" covarianceYY="0.0000644686" covarianceYZ="0.0000198680" covarianceZZ="0.0002024530" RMS="1.000000" startTime="1278145875" stopTime="1278145875"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_12" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0005">
+<GPSPosition pntRef="GS0005" wgsLatitude="55.754698179553579" wgsLongitude="8.916410302005430" wgsHeight="78.538649">
+<TargetPoint name="GS0005" pntRef="GS0005" >6178781.869724 494753.721392 38.056494</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000487786" covarianceXY="0.0000008156" covarianceXZ="-0.0000050009" covarianceYY="0.0000505334" covarianceYZ="0.0000147807" covarianceZZ="0.0001693593" RMS="1.000000" startTime="1278145923" stopTime="1278145923"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_14" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0006">
+<GPSPosition pntRef="GS0006" wgsLatitude="55.754697484612848" wgsLongitude="8.916420466995412" wgsHeight="78.446780">
+<TargetPoint name="GS0006" pntRef="GS0006" >6178781.791613 494754.359276 37.964632</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0000755886" covarianceXY="0.0000101814" covarianceXZ="0.0000111594" covarianceYY="0.0000715398" covarianceYZ="0.0000209400" covarianceZZ="0.0002793397" RMS="1.000000" startTime="1278145971" stopTime="1278145971"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_16" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0007">
+<GPSPosition pntRef="GS0007" wgsLatitude="55.754684215562925" wgsLongitude="8.916579519593460" wgsHeight="79.247730">
+<TargetPoint name="GS0007" pntRef="GS0007" >6178780.302837 494764.339997 38.765712</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0003784179" covarianceXY="-0.0000242113" covarianceXZ="0.0001661162" covarianceYY="0.0002868960" covarianceYZ="-0.0001910492" covarianceZZ="0.0016174824" RMS="1.000000" startTime="1278145988" stopTime="1278145988"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_18" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0008">
+<GPSPosition pntRef="GS0008" wgsLatitude="55.754672524136794" wgsLongitude="8.916696337463895" wgsHeight="79.126726">
+<TargetPoint name="GS0008" pntRef="GS0008" >6178778.992848 494771.670188 38.644800</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0001726216" covarianceXY="0.0000218614" covarianceXZ="0.0000399013" covarianceYY="0.0002655277" covarianceYZ="0.0000302260" covarianceZZ="0.0007650601" RMS="1.000000" startTime="1278146065" stopTime="1278146065"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup id="GPSSetupID_20" GPSReceiverDetailsID="GPS_1" antennaHeight="2.000000" stationName="GS0009">
+<GPSPosition pntRef="GS0009" wgsLatitude="55.754671120713475" wgsLongitude="8.916708696617803" wgsHeight="79.004644">
+<TargetPoint name="GS0009" pntRef="GS0009" >6178778.835725 494772.445689 38.522729</TargetPoint>
+<GPSQCInfoLevel2 covarianceXX="0.0004389873" covarianceXY="-0.0000604121" covarianceXZ="0.0004193271" covarianceYY="0.0003384429" covarianceYZ="-0.0003667033" covarianceZZ="0.0014397651" RMS="1.000000" startTime="1278146086" stopTime="1278146086"/>
+</GPSPosition>
+</GPSSetup>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_4" dX="368.848489" dY="-2857.417224" dZ="38.651294">
+<TargetPoint name="GS0001" pntRef="GS0001" >6178765.597820 494749.864208 38.336200</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_6" dX="354.736858" dY="-2855.550704" dZ="47.457442">
+<TargetPoint name="GS0002" pntRef="GS0002" >6178781.826873 494753.913295 37.933422</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_8" dX="354.801148" dY="-2855.739568" dZ="47.587696">
+<TargetPoint name="GS0003" pntRef="GS0003" >6178781.872086 494753.716885 38.060363</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_10" dX="354.804096" dY="-2855.741490" dZ="47.584468">
+<TargetPoint name="GS0004" pntRef="GS0004" >6178781.868113 494753.714525 38.059165</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_12" dX="354.800224" dY="-2855.735146" dZ="47.583172">
+<TargetPoint name="GS0005" pntRef="GS0005" >6178781.869724 494753.721392 38.056494</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_14" dX="354.713414" dY="-2855.102717" dZ="47.463688">
+<TargetPoint name="GS0006" pntRef="GS0006" >6178781.791613 494754.359276 37.964632</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_16" dX="354.817296" dY="-2844.977635" dZ="47.294417">
+<TargetPoint name="GS0007" pntRef="GS0007" >6178780.302837 494764.339997 38.765712</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_18" dX="354.676189" dY="-2837.575265" dZ="46.461871">
+<TargetPoint name="GS0008" pntRef="GS0008" >6178778.992848 494771.670188 38.644800</TargetPoint>
+</GPSVector>
+<GPSVector setupID_A="RefStationId-2" setupID_B="GPSSetupID_20" dX="354.615644" dY="-2836.799262" dZ="46.273022">
+<TargetPoint name="GS0009" pntRef="GS0009" >6178778.835725 494772.445689 38.522729</TargetPoint>
+</GPSVector>
+</Survey>
+<HexagonLandXML xmlns="http://xml.hexagon.com/schema/HeXML-1.8" xsi:schemaLocation="http://xml.hexagon.com/schema/HeXML-1.8 http://xml.hexagon.com/schema/HeXML-1.8.xsd" xmlns:landxml="http://www.landxml.org/schema/LandXML-1.2" averagingMode="Average" averagingPosLimit="0.050000" averagingHgtLimit="0.075000">
+<CoordinateSystem name="UTM32JY" type="classic" residualDistributionKind="no distribution">
+<Ellipsoid name="WGS 1984" SemiMajorAxis="6378137.000000" ReciprocFlattening="298.257223563000030"/>
+<Projection name="UTM32">
+<UTMProjection hemisphere="north" zoneNumber="32"/>
+</Projection>
+<GeoidModel name="DVR90_2013" geodeticDatumKind="WGS84" coordinateSystemKind="ellipsoidal"><landxml:DocFileRef name="DVR90_2013.GEM" location="-"/>
+</GeoidModel>
+</CoordinateSystem>
+<Point uniqueID="GS0009" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.346544" y="557606.941638" z="5249184.858022"/>
+<Geodetic lat="55.754671120713475" lon="8.916708696617803" hghtE="79.004644" hghthO="38.522729"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.346544" y="557606.941638" z="5249184.858022"/>
+<Geodetic lat="55.754671120713475" lon="8.916708696617805" hghtE="79.004644" hghthO="38.522729"/>
+<Grid e="494772.445689" n="6178778.835725" hghtE="79.004644" hghthO="38.522729"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0004389873" Qxy="-0.0000604121" Qxz="0.0004193271" Qyy="0.0003384429" Qyz="-0.0003667033" Qzz="0.0014397651" MeanError="1.000000" CQ3D="0.047087" CQPos="0.027882" CQHeight="0.037944"/>
+</Point>
+<Point uniqueID="GS0008" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.407089" y="557606.165635" z="5249185.046871"/>
+<Geodetic lat="55.754672524136794" lon="8.916696337463895" hghtE="79.126726" hghthO="38.644800"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.407089" y="557606.165635" z="5249185.046871"/>
+<Geodetic lat="55.754672524136794" lon="8.916696337463893" hghtE="79.126726" hghthO="38.644800"/>
+<Grid e="494771.670188" n="6178778.992848" hghtE="79.126726" hghthO="38.644800"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0001726216" Qxy="0.0000218614" Qxz="0.0000399013" Qyy="0.0002655277" Qyz="0.0000302260" Qzz="0.0007650601" MeanError="1.000000" CQ3D="0.034687" CQPos="0.020932" CQHeight="0.027660"/>
+</Point>
+<Point uniqueID="GS0007" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.548196" y="557598.763265" z="5249185.879417"/>
+<Geodetic lat="55.754684215562925" lon="8.916579519593460" hghtE="79.247730" hghthO="38.765712"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.548196" y="557598.763265" z="5249185.879417"/>
+<Geodetic lat="55.754684215562946" lon="8.916579519593460" hghtE="79.247730" hghthO="38.765712"/>
+<Grid e="494764.339997" n="6178780.302837" hghtE="79.247730" hghthO="38.765712"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0003784179" Qxy="-0.0000242113" Qxz="0.0001661162" Qyy="0.0002868960" Qyz="-0.0001910492" Qzz="0.0016174824" MeanError="1.000000" CQ3D="0.047779" CQPos="0.025794" CQHeight="0.040218"/>
+</Point>
+<Point uniqueID="GS0006" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.444314" y="557588.638183" z="5249186.048688"/>
+<Geodetic lat="55.754697484612848" lon="8.916420466995412" hghtE="78.446780" hghthO="37.964632"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.444314" y="557588.638183" z="5249186.048688"/>
+<Geodetic lat="55.754697484612855" lon="8.916420466995412" hghtE="78.446780" hghthO="37.964632"/>
+<Grid e="494754.359276" n="6178781.791613" hghtE="78.446780" hghthO="37.964632"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000755886" Qxy="0.0000101814" Qxz="0.0000111594" Qyy="0.0000715398" Qyz="0.0000209400" Qzz="0.0002793397" MeanError="1.000000" CQ3D="0.020651" CQPos="0.012130" CQHeight="0.016713"/>
+</Point>
+<Point uniqueID="GS0005" class="measured" subclass="GPS phase" lineworkFlag="BEG" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.531124" y="557588.005754" z="5249186.168172"/>
+<Geodetic lat="55.754698179553579" lon="8.916410302005430" hghtE="78.538649" hghthO="38.056494"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.531124" y="557588.005754" z="5249186.168172"/>
+<Geodetic lat="55.754698179553586" lon="8.916410302005430" hghtE="78.538649" hghthO="38.056494"/>
+<Grid e="494753.721392" n="6178781.869724" hghtE="78.538649" hghthO="38.056494"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000487786" Qxy="0.0000008156" Qxz="-0.0000050009" Qyy="0.0000505334" Qyz="0.0000147807" Qzz="0.0001693593" MeanError="1.000000" CQ3D="0.016391" CQPos="0.009966" CQHeight="0.013014"/>
+</Point>
+<Point uniqueID="GS0004" class="measured" subclass="GPS phase" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.534996" y="557587.999410" z="5249186.169468"/>
+<Geodetic lat="55.754698165003767" lon="8.916410192632464" hghtE="78.541320" hghthO="38.059165"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.534996" y="557587.999410" z="5249186.169468"/>
+<Geodetic lat="55.754698165003767" lon="8.916410192632460" hghtE="78.541320" hghthO="38.059165"/>
+<Grid e="494753.714525" n="6178781.868113" hghtE="78.541320" hghthO="38.059165"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber splidsemuf" codeDesc="" codeGroup="Fiber" codeLinework="none">
+ <Attribute name="Art" value="6 fiber" id="1"/>
+ <Attribute name="Opm metode" value="Åben grav" id="2"/>
+ <Attribute name="Kabelfarve" value="Blå" id="3"/>
+</PointCode>
+<PointQuality Qxx="0.0000610953" Qxy="-0.0000052677" Qxz="0.0000015306" Qyy="0.0000644686" Qyz="0.0000198680" Qzz="0.0002024530" MeanError="1.000000" CQ3D="0.018111" CQPos="0.011206" CQHeight="0.014229"/>
+</Point>
+<Point uniqueID="GS0003" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.532048" y="557588.001332" z="5249186.172696"/>
+<Geodetic lat="55.754698200729599" lon="8.916410230151941" hghtE="78.542517" hghthO="38.060363"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.532048" y="557588.001332" z="5249186.172696"/>
+<Geodetic lat="55.754698200729599" lon="8.916410230151941" hghtE="78.542517" hghthO="38.060363"/>
+<Grid e="494753.716885" n="6178781.872086" hghtE="78.542517" hghthO="38.060363"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000639498" Qxy="-0.0000008791" Qxz="0.0000032993" Qyy="0.0000643553" Qyz="0.0000171916" Qzz="0.0002163694" MeanError="1.000000" CQ3D="0.018565" CQPos="0.011327" CQHeight="0.014709"/>
+</Point>
+<Point uniqueID="GS0002" class="measured" subclass="GPS phase" lineworkFlag="CONT" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554022.467758" y="557588.190196" z="5249186.042442"/>
+<Geodetic lat="55.754697796608873" lon="8.916413360455644" hghtE="78.415577" hghthO="37.933422"/>
+</WGS84>
+<Local>
+<Cartesian x="3554022.467758" y="557588.190196" z="5249186.042442"/>
+<Geodetic lat="55.754697796608887" lon="8.916413360455644" hghtE="78.415577" hghthO="37.933422"/>
+<Grid e="494753.913295" n="6178781.826873" hghtE="78.415577" hghthO="37.933422"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000734181" Qxy="0.0000065699" Qxz="-0.0000023643" Qyy="0.0000701210" Qyz="0.0000280993" Qzz="0.0003123210" MeanError="1.000000" CQ3D="0.021351" CQPos="0.011981" CQHeight="0.017673"/>
+</Point>
+<Point uniqueID="GS0001" class="measured" subclass="GPS phase" lineworkFlag="BEG" averageUsage="true" applicationNumber="1">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3554036.579389" y="557586.323676" z="5249177.236294"/>
+<Geodetic lat="55.754551929879476" lon="8.916349157921989" hghtE="78.818496" hghthO="38.336200"/>
+</WGS84>
+<Local>
+<Cartesian x="3554036.579389" y="557586.323676" z="5249177.236294"/>
+<Geodetic lat="55.754551929879483" lon="8.916349157921991" hghtE="78.818496" hghthO="38.336200"/>
+<Grid e="494749.864208" n="6178765.597820" hghtE="78.818496" hghthO="38.336200"/>
+</Local>
+</Coordinates>
+<PointCode code="Fiber kabel" codeDesc="" color="0x00808080" codeGroup="Fiber" codeLinework="none">
+</PointCode>
+<PointQuality Qxx="0.0000710651" Qxy="0.0000062657" Qxz="0.0000040464" Qyy="0.0000486334" Qyz="0.0000118693" Qzz="0.0001670501" MeanError="1.000000" CQ3D="0.016934" CQPos="0.010941" CQHeight="0.012925"/>
+</Point>
+<Point uniqueID="RTCM-Ref 0039" class="reference" subclass="positionAndHeight">
+<Coordinates originalCoordSysKind="Ellipsoidal" originalGeodeticDatumKind="WGS84" originalHeightKind="ellipsoidal">
+<WGS84>
+<Cartesian x="3553667.730900" y="560443.740900" z="5249138.585000"/>
+<Geodetic lat="55.753765294572467" lon="8.962217387182971" hghtE="91.684739" hghthO="51.239396"/>
+</WGS84>
+<Local>
+<Cartesian x="3553667.730900" y="560443.740900" z="5249138.585000"/>
+<Geodetic lat="55.753765294572467" lon="8.962217387182971" hghtE="91.684739" hghthO="51.239396"/>
+<Grid e="497628.620878" n="6178675.529162" hghtE="91.684739" hghthO="51.239396"/>
+</Local>
+</Coordinates>
+<PointQuality MeanError="0.000000"/>
+</Point>
+<Survey name="FIBER PILEVEJ 5_1" Description1="FIBER" Creator="WBM" SurveyDuration="P0Y0M0DT0H5M19S">
+<GPSSetup uniqueID="GPSSetupID_4">
+<GPSPosition targetPntRef="GS0001">
+<GPSQuality HDOP="0.800000" GDOP="2.071232" PDOP="1.526434" VDOP="1.300000" TDOP="1.400000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="9" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="4" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_6">
+<GPSPosition targetPntRef="GS0002">
+<GPSQuality HDOP="0.800000" GDOP="2.071232" PDOP="1.526434" VDOP="1.300000" TDOP="1.400000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="4" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_8">
+<GPSPosition targetPntRef="GS0003">
+<GPSQuality HDOP="0.800000" GDOP="1.876166" PDOP="1.442221" VDOP="1.200000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="6" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_10">
+<GPSPosition targetPntRef="GS0004">
+<GPSQuality HDOP="0.800000" GDOP="1.876166" PDOP="1.442221" VDOP="1.200000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="5" GLONASSSatUsed="5" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_12">
+<GPSPosition targetPntRef="GS0005">
+<GPSQuality HDOP="0.800000" GDOP="1.941649" PDOP="1.442221" VDOP="1.200000" TDOP="1.300000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="5" GLONASSSatUsed="5" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_14">
+<GPSPosition targetPntRef="GS0006">
+<GPSQuality HDOP="0.800000" GDOP="1.876166" PDOP="1.442221" VDOP="1.200000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="6" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_16">
+<GPSPosition targetPntRef="GS0007">
+<GPSQuality HDOP="1.400000" GDOP="3.226453" PDOP="2.360085" VDOP="1.900000" TDOP="2.200000"/>
+<SatelliteInfo GPSSatTracked="9" GPSSatUsed="5" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="5" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_18">
+<GPSPosition targetPntRef="GS0008">
+<GPSQuality HDOP="0.800000" GDOP="1.876166" PDOP="1.442221" VDOP="1.200000" TDOP="1.200000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="8" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="6" GLONASSSatUsed="6" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+<GPSSetup uniqueID="GPSSetupID_20">
+<GPSPosition targetPntRef="GS0009">
+<GPSQuality HDOP="2.000000" GDOP="4.597826" PDOP="3.201562" VDOP="2.500000" TDOP="3.300000"/>
+<SatelliteInfo GPSSatTracked="8" GPSSatUsed="5" GALILEOSatTracked="0" GALILEOSatUsed="0" GLONASSSatTracked="4" GLONASSSatUsed="4" BEIDOUSatTracked="0" BEIDOUSatUsed="0"/>
+<RTKInfo referenceRef="RTCM-Ref 0039" networkSolution="true" networkType="i-MAX" dataFormat="RTCM v3" ipAddress="dk.nrtk.eu" port="10300" mountpoint="10300" insideRTKNetwork="Inside" GPUID="" numRefStationUsed="1" numRTKPositionUsed="5"/>
+</GPSPosition>
+</GPSSetup>
+</Survey>
+<PlanFeature name="Fiber kabel_001" lineColor="0x00000000" lineStyle="Solid" lineWidth="1">
+<LineCode code="Fiber kabel" codeDesc="" color="0x00000000" style="Solid" codeGroup="Fiber">
+<Attribute name="Grave type" value="Gravet"/>
+<Attribute name="Opm metode" value="Lukket grav"/>
+</LineCode>
+<CoordGeom>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="Fiber kabel_002" lineColor="0x00000000" lineStyle="Solid" lineWidth="1">
+<LineCode code="Fiber kabel" codeDesc="" color="0x00000000" style="Solid" codeGroup="Fiber">
+<Attribute name="Grave type" value="Gravet"/>
+<Attribute name="Opm metode" value="Åben grav"/>
+</LineCode>
+<CoordGeom>
+</CoordGeom>
+</PlanFeature>
+<Codelist codelistName="GEV Captivate">
+  <CodeGroup codeGroupName="Fjernvarme" activatedOnInstrument="true">
+    <Code codeName="Fjv ledning" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Hovedledning"/>
+                <textList textListValue="Stikledning"/>
+                <textList textListValue="Hovedled m/alarm"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="20/20/110ALPEX"/>
+                <textList textListValue="20/90ALPEX"/>
+                <textList textListValue="25/25/110ALPEX"/>
+                <textList textListValue="25/90ALPEX"/>
+                <textList textListValue="26/26/110ALPEX"/>
+                <textList textListValue="26/90ALPEX"/>
+                <textList textListValue="32/90ALPEX"/>
+                <textList textListValue="32/32/110ALPEX"/>
+                <textList textListValue="32/32/125ALPEX"/>
+                <textList textListValue="33/33/160"/>
+                <textList textListValue="42/42/180"/>
+                <textList textListValue="42/125/110"/>
+                <textList textListValue="48/48/180"/>
+                <textList textListValue="48/125/110"/>
+                <textList textListValue="48/125/140"/>
+                <textList textListValue="60/60/225"/>
+                <textList textListValue="76/76/250"/>
+                <textList textListValue="114/114/355"/>
+                <textList textListValue="114/200/225"/>
+                <textList textListValue="139/139/450"/>
+                <textList textListValue="168/250/280"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Lukket grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Gravet">
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fjv ventil" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Lukket grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fjv reduktion" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Lukket grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fjv muffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Lukket grav">
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="T-Muffe"/>
+                <textList textListValue="Muffe"/>
+                <textList textListValue="Overgangsmuffe"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Skel punkt" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Fjv ledning" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Vand" activatedOnInstrument="true">
+    <Code codeName="Vand muffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Vand reduktion" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Vand ventil" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ventil"/>
+                <textList textListValue="Skylleventil"/>
+                <textList textListValue="Stophane"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="32 Hawle Delrin"/>
+                <textList textListValue="40 Hawle Delrin"/>
+                <textList textListValue="50 Hawle Delrin"/>
+                <textList textListValue="63 Hawle Delrin"/>
+                <textList textListValue="DN65 HawleE2"/>
+                <textList textListValue="DN80 HawleE2"/>
+                <textList textListValue="DN100 HawleE2"/>
+                <textList textListValue="DN125 HawleE2"/>
+                <textList textListValue="DN150 HawleE2"/>
+                <textList textListValue="DN200 HawleE2"/>
+                <textList textListValue="DN250 HawleE2"/>
+                <textList textListValue="75 HawleE2"/>
+                <textList textListValue="90 HawleE2"/>
+                <textList textListValue="110 HawleE2"/>
+                <textList textListValue="125 HawleE2"/>
+                <textList textListValue="160 HawleE2"/>
+                <textList textListValue="200 HawleE2"/>
+                <textList textListValue="250 HawleE2"/>
+                <textList textListValue="315HawleE2"/>
+                <textList textListValue="?"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Vand ledning" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x0000FF" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Hovedledning"/>
+                <textList textListValue="Stikledning"/>
+                <textList textListValue="Jordledning"/>
+                <textList textListValue="Brandledning"/>
+                <textList textListValue="Råvandsledning"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="32 Pem"/>
+                <textList textListValue="40 Pem"/>
+                <textList textListValue="50 Pem"/>
+                <textList textListValue="60 PVC"/>
+                <textList textListValue="63 Pem"/>
+                <textList textListValue="63 PVC"/>
+                <textList textListValue="75 PVC"/>
+                <textList textListValue="90 PVC"/>
+                <textList textListValue="90 Pem"/>
+                <textList textListValue="110 PVC"/>
+                <textList textListValue="110 Pem"/>
+                <textList textListValue="125 Pem"/>
+                <textList textListValue="160 Pem"/>
+                <textList textListValue="160 PVC"/>
+                <textList textListValue="200 Pem"/>
+                <textList textListValue="250 PVC"/>
+                <textList textListValue="315 PVC"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Vand brønd" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Målerbrønd"/>
+                <textList textListValue="Inspektionsbrønd"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Vand Brandhane" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="B"/>
+                <textList textListValue="C"/>
+                <textList textListValue="B60"/>
+                <textList textListValue="PHB"/>
+                <textList textListValue="PHA"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Vand ledning" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Trafik" activatedOnInstrument="true">
+    <Code codeName="Trafik skab" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Måler" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Nej">
+              <textChoiceList>
+                <textList textListValue="Ja"/>
+                <textList textListValue="Nej"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Styreskab"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Trafik spole" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="El" activatedOnInstrument="true">
+    <Code codeName="El mast" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rør"/>
+                <textList textListValue="Gitter"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Spn niveau" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="0,4 kV"/>
+                <textList textListValue="10 kV"/>
+                <textList textListValue="60 kV"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="El station" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="KIOSK"/>
+                <textList textListValue="Muret"/>
+                <textList textListValue="Muret i bygning"/>
+                <textList textListValue="Nedgravet kiosk"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="El skab" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Typebetegn" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Triax"/>
+                <textList textListValue="CP1"/>
+                <textList textListValue="CP3"/>
+                <textList textListValue="CP4"/>
+                <textList textListValue="CP6"/>
+                <textList textListValue="KSEØ 300909"/>
+                <textList textListValue="KSEØ 301209"/>
+                <textList textListValue="KESÅ 301509"/>
+                <textList textListValue="KSEØ 301809"/>
+                <textList textListValue="KSEÅ 302109"/>
+                <textList textListValue="ABB PK20"/>
+                <textList textListValue="ABB PK35"/>
+                <textList textListValue="ABB PK48"/>
+                <textList textListValue="ABB PK67"/>
+                <textList textListValue="ER"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="El rør" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="100 mm"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="El muffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Spn niveau" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="0,4 kV"/>
+                <textList textListValue="10 kV"/>
+                <textList textListValue="60 kV"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="El Kabel" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="3x150PEX-Al"/>
+                <textList textListValue="4x50Al"/>
+                <textList textListValue="4x95Al"/>
+                <textList textListValue="4x150Al"/>
+                <textList textListValue="4x240Al"/>
+                <textList textListValue="2x2,5Cu"/>
+                <textList textListValue="4x6Cu"/>
+                <textList textListValue="4x10Cu"/>
+                <textList textListValue="4x16Cu"/>
+                <textList textListValue="4x25Cu"/>
+                <textList textListValue="4x35Cu"/>
+                <textList textListValue="5x2,5Cu"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Hovedledning"/>
+                <textList textListValue="Stikledning"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Spn niveau" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="0,4 kV"/>
+                <textList textListValue="10 kV"/>
+                <textList textListValue="60 kV"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="1 stk.">
+              <textChoiceList>
+                <textList textListValue="1 stk."/>
+                <textList textListValue="2 stk."/>
+                <textList textListValue="3 stk."/>
+                <textList textListValue="4 stk."/>
+                <textList textListValue="5 stk."/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="El Kabel" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="El rør" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Gadelys" activatedOnInstrument="true">
+    <Code codeName="Gdl muffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Gdl mast" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rør mast"/>
+                <textList textListValue="Gitter mast"/>
+                <textList textListValue="Nedgravet"/>
+                <textList textListValue="Wire"/>
+                <textList textListValue="Væg"/>
+                <textList textListValue="Tunnel"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Armaturantal" attributeType="Mandatory" valueType="Integer" valueRegion="ChoiceList">
+            <integer>
+              <integerChoiceList>
+                <integerList integerListValue="1"/>
+                <integerList integerListValue="2"/>
+                <integerList integerListValue="3"/>
+                <integerList integerListValue="4"/>
+                <integerList integerListValue="5"/>
+              </integerChoiceList>
+            </integer>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Gdl kabel" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="4x6Cu"/>
+                <textList textListValue="4x10Cu"/>
+                <textList textListValue="4x16Cu"/>
+                <textList textListValue="5x1,5Cu"/>
+                <textList textListValue="5x2,5Cu"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="1 stk.">
+              <textChoiceList>
+                <textList textListValue="1 stk."/>
+                <textList textListValue="2 stk."/>
+                <textList textListValue="3 stk."/>
+                <textList textListValue="4 stk."/>
+                <textList textListValue="5 stk."/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Gdl skab" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Måler" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Nej">
+              <textChoiceList>
+                <textList textListValue="Ja"/>
+                <textList textListValue="Nej"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Forderlerskab"/>
+                <textList textListValue="Kontaktorskab"/>
+                <textList textListValue="Hovedkontraktor"/>
+                <textList textListValue="Målerskab"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Gdl brønd" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="Samlebrønd">
+              <textChoiceList>
+                <textList textListValue="Samlebrønd"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Gdl toronto" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Gdl kabel" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+  <CodeGroup codeGroupName="Fiber" activatedOnInstrument="true">
+    <Code codeName="Fiber multirør" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø50 (6xØ12)"/>
+                <textList textListValue="Flatliner(6xØ14)"/>
+                <textList textListValue="Ø32 (3xØ14)"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="1 stk.">
+              <textChoiceList>
+                <textList textListValue="1 stk."/>
+                <textList textListValue="2 stk."/>
+                <textList textListValue="3 stk."/>
+                <textList textListValue="4 stk."/>
+                <textList textListValue="5 stk."/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber singlerør" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Antal" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text textDefaultValue="1 stk.">
+              <textChoiceList>
+                <textList textListValue="1 stk."/>
+                <textList textListValue="2 stk."/>
+                <textList textListValue="3 stk."/>
+                <textList textListValue="4 stk."/>
+                <textList textListValue="5 stk."/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø12"/>
+                <textList textListValue="Ø14"/>
+                <textList textListValue="Ø20"/>
+                <textList textListValue="Ø50"/>
+                <textList textListValue="Ø110"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber kabel" codeDesc="" codeType="Line">
+        <LineCode lineStyle="Dot" lineColor="0x000000" lineWidth="25">
+          <CodeAttributes attributeName="Grave type" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Gravet"/>
+                <textList textListValue="Underføring"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </LineCode>
+    </Code>
+    <Code codeName="Fiber rørmuffe" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Subtubefarve" attributeType="Normal" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød"/>
+                <textList textListValue="Blå"/>
+                <textList textListValue="Gul"/>
+                <textList textListValue="Grøn"/>
+                <textList textListValue="Hvid"/>
+                <textList textListValue="Grå"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Ø50 2xlang u/hor"/>
+                <textList textListValue="Ø50 4xlang m/hor"/>
+                <textList textListValue="Ø50 t/ 6-fiber"/>
+                <textList textListValue="Ø7 samlemuffe"/>
+                <textList textListValue="Ø12 samlemuffe"/>
+                <textList textListValue="Ø14 samlemuffe"/>
+                <textList textListValue="Ø20 samlemuffe"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber splidsemuf" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="6 fiber"/>
+                <textList textListValue="96 fiber"/>
+                <textList textListValue="96/6 afgrening"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Kabelfarve" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød"/>
+                <textList textListValue="Blå"/>
+                <textList textListValue="Gul"/>
+                <textList textListValue="Grøn"/>
+                <textList textListValue="Hvid"/>
+                <textList textListValue="Grå"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber brønd" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Dimension" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="90x50"/>
+                <textList textListValue="90x90x170"/>
+                <textList textListValue="120x400"/>
+                <textList textListValue="160x85"/>
+                <textList textListValue="400x800x900"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber skab" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Art" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="12 kunder"/>
+                <textList textListValue="32 kunder"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber POP" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber kvejl" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x000000" lineWidth="0" codeLinework="none">
+          <CodeAttributes attributeName="Kabelfarve" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Rød - 6 fiber"/>
+                <textList textListValue="Blå - 6 fiber"/>
+                <textList textListValue="Gul - 6 fiber"/>
+                <textList textListValue="Grøn - 6 fiber"/>
+                <textList textListValue="Hvid - 6 fiber"/>
+                <textList textListValue="Grå - 6 fiber"/>
+                <textList textListValue="12 fiber"/>
+                <textList textListValue="96 fiber"/>
+                <textList textListValue="288 fiber"/>
+                <textList textListValue="432 fiber"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+          <CodeAttributes attributeName="Opm metode" attributeType="Mandatory" valueType="Text" valueRegion="ChoiceList">
+            <text>
+              <textChoiceList>
+                <textList textListValue="Åben grav"/>
+                <textList textListValue="Lukket grav"/>
+                <textList textListValue="Sporing"/>
+              </textChoiceList>
+            </text>
+          </CodeAttributes>
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber kabel" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber multirør" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+    <Code codeName="Fiber signalrør" codeDesc="" codeType="Point">
+        <PointCode lineStyle="Solid" lineColor="0x808080" lineWidth="25" codeLinework="none">
+        </PointCode>
+    </Code>
+  </CodeGroup>
+</Codelist>
+<ApplicationResults>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="4.10.485" ApplicationStartDateTime="2020-07-07T10:28:00.91" ApplicationEndDateTime="2020-07-07T10:28:00.91" ApplicationNumber="1"/>
+<ApplicationSurvey ApplicationName="ApplSurvey" ApplicationVersionNumber="4.10.485" ApplicationStartDateTime="2020-07-07T15:23:34.81" ApplicationEndDateTime="2020-07-07T15:23:34.81" ApplicationNumber="2"/>
+<ApplicationGeneric ApplicationName="ApplStakeout" ApplicationVersionNumber="4.10.000" ApplicationStartDateTime="2020-07-08T11:20:38.51" ApplicationEndDateTime="2020-07-08T11:20:38.51" ApplicationNumber="3">
+<GenericApplResult name="_DTM_JobName" valueType="Text" physicalQuantityType="None" value="test.DWG"/>
+</ApplicationGeneric>
+</ApplicationResults>
+</HexagonLandXML>
+</LandXML>

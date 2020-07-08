@@ -55,12 +55,12 @@ namespace DAX.LandLink.WebService.Controllers
                 var daxReader = transformer.GetFirstDataReader();
 
                 // Log out first 200 bytes of input data
-                int subStringLen = 200;
+                int inputSubStringLen = 200;
 
-                if (inputData.Length < subStringLen)
-                    subStringLen = inputData.Length;
+                if (inputData.Length < inputSubStringLen)
+                    inputSubStringLen = inputData.Length;
 
-                Logger.Debug("Input data stream (max 200 bytes): " + inputData.Substring(0, subStringLen));
+                Logger.Debug("Input data stream (max 200 bytes): " + inputData.Substring(0, inputSubStringLen));
 
 
                 transformer.GetFirstDataReader().Open(inputData);
@@ -72,9 +72,16 @@ namespace DAX.LandLink.WebService.Controllers
 
                 if (transformationResult != null)
                 {
-                    HttpResponseMessage resp = new HttpResponseMessage(HttpStatusCode.NotModified);
+                    int outputSubStringLen = 200;
+
+                    if (transformationResult.Length < outputSubStringLen)
+                        outputSubStringLen = transformationResult.Length;
+
+                    Logger.Debug("Output data stream (max 200 bytes): " + transformationResult.Substring(0, outputSubStringLen));
+
+                    HttpResponseMessage resp = new HttpResponseMessage(HttpStatusCode.OK);
                     resp.Content = new StringContent(transformationResult);
-                    //resp.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+                    resp.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
                     return resp;
                 }
